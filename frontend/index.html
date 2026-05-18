@@ -2238,7 +2238,7 @@ patchShopButton();
 
 <script>
 (function(){
-  const API_BASE = "http://127.0.0.1:8000";
+  const API_BASE = localStorage.getItem("pump_api_base") || "https://pump-arena-backend.onrender.com";
 
   function getTelegramIdentityV17(){
     try{
