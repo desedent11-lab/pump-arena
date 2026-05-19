@@ -1,0 +1,12 @@
+Pump Arena V37 Finish Battle FINAL
+
+Исправлено:
+- renderHome() теперь всегда завершает активный бой перед показом главного экрана.
+- Кнопка Назад в бою вызывает battleBackHomeV37() → finishBattleAndGoHomeV35().
+- Добавлен глобальный guard: если во время боя нажать Назад/Back/Закончить бой, battle сбрасывается.
+- Удаляются возможные ключи активного боя из localStorage.
+
+Проверка:
+- renderHome patched: True
+- battle exit guard: True
+- syntax: OK
