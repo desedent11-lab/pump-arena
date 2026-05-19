@@ -1,0 +1,12 @@
+Pump Arena V31 SAFE FIX
+
+Что исправлено:
+- Вернул безопасный подход: старые элементы НЕ удаляются из DOM.
+- Скрыты старые floating-дублёры через CSS:
+  VIP, VIP Badge, Battle Pass, Clan, Clan Missions, Play Modes, paTabBar.
+- Добавлен безопасный JS, который только скрывает старые кнопки, но ничего не удаляет.
+- Старые overlay/screens оставлены, чтобы их JavaScript не падал.
+- V30 Matchmaking сохранён.
+
+Проверка:
+OK
