@@ -1,0 +1,7 @@
+V34: Кнопка Закончить бой видимая и принудительная.
+- click + touchend
+- без confirm
+- battle=null
+- renderHome fallback reload
+
+Проверка: OK
