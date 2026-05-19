@@ -1,0 +1,9 @@
+V35 Finish Battle Inside RenderBattle
+
+Что сделано:
+- Кнопка '🏁 Закончить бой' вставлена прямо внутрь renderBattle в блок действий.
+- Кнопка Назад на экране боя теперь тоже завершает бой и возвращает домой.
+- Функция finishBattleAndGoHomeV35(): battle=null; renderHome();
+- Убраны внешние floating-патчи прошлых версий.
+
+Проверка: OK
