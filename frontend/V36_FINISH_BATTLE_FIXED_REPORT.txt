@@ -1,0 +1,12 @@
+Pump Arena V36 Finish Battle Fixed
+
+Исправлено:
+- Верхняя кнопка на экране боя больше НЕ вызывает renderHome().
+- Теперь она вызывает finishBattleAndGoHomeV35().
+- finishBattleAndGoHomeV35 полностью закрывает бой: battle.ended=true, reward=0, battle=null, потом renderHome().
+- Добавлен резервный обработчик click/touchend для кнопки завершения боя.
+- Случайно изменённые кнопки Назад в других разделах восстановлены на renderHome().
+
+Проверка:
+- renderBattle top button patched: True
+- syntax: OK
