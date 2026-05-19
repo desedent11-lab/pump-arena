@@ -1,0 +1,15 @@
+Pump Arena V31 Cleanup
+
+Что сделано:
+- Удалены старые floating-дублёры из index.html:
+  vipHotfixBtn, vipHotfixBadge, bpPlusBtn, clanBtn, clanMissionBtn, playModesBtn.
+- Удалён старый блок CLAN_MISSIONS_VISIBLE_FIX, который добавлял лишние кнопки.
+- Удалён старый CLAN_CAREER_SYSTEM floating Play Modes block, который дублировал раздел Играть.
+- Добавлена защита в style.css: старые floating IDs скрываются, если браузер/Telegram подхватит кеш.
+- Добавлен runtime-cleanup JS: удаляет старые дубль-кнопки после рендера.
+- app.js и vercel.json сохранены без лишних изменений.
+
+V30 Matchmaking найден: YES
+
+Проверка:
+OK
