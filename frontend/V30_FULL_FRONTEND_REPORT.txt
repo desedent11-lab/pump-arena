@@ -1,0 +1,16 @@
+Pump Arena V30 full frontend package
+
+Files included:
+- index.html with V30 Matchmaking
+- app.js
+- style.css
+- vercel.json
+
+Added:
+- PvP Matchmaking screen
+- Search opponent
+- VS screen
+- AI fallback after 7 seconds
+- Play/Solo buttons hook to Matchmaking
+
+Checks: OK
